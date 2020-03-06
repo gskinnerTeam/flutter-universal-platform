@@ -10,7 +10,7 @@ With this plugin you can perform platform detection on all platforms, including 
 ## 🔨 Installation
 ```yaml
 dependencies:
-  sized_context: ^1.0.0
+  universal_platform: ^0.1.0
 ```
 
 ### ⚙ Import
