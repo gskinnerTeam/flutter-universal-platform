@@ -7,7 +7,7 @@ Currently, if you try and use dart.io.Platform class on Web, your build will thr
 Unsupported operation: Platform._operatingSystem
 ```
 
-## 🎮 Usage
+## 🕹️ Usage
 
 This acts as a drop-in replacement for dart.io.Platform, with a different name for improved clarity. 
 
@@ -20,22 +20,22 @@ bool isIos = UniversalPlatform.isIOS;
 bool isWeb = UniversalPlatform.isWeb;
 ```
 
-## 🎖 Installation
+## 🔨 Installation
 ```yaml
 dependencies:
   sized_context: ^1.0.0
 ```
 
-### ⚡ Import
+### ⚙ Import
 
 ```dart
-import 'universal_platform.dart';
+import 'package:universal_platform/universal_platform.dart';
 ```
 
-## 🐛 Bugs/Requests
+## 🐞 Bugs/Requests
 
 If you encounter any problems feel open an issue. If you feel the library is missing a feature, please raise a ticket on Github and we'll look into it. Pull request are also welcome.
 
-## ⭐ License
+## 📃 License
 
 MIT License
