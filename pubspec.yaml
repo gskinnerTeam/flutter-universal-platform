@@ -1,6 +1,6 @@
 name: universal_platform
 description: Replacement for dart.io.Platform class which works on Web as well as Desktop and Mobile.
-version: 0.1.0
+version: 0.1.2+1
 homepage: https://github.com/gskinnerTeam/flutter-universal-platform
 author: Shawn <shawn@gskinner.com>
 
@@ -10,3 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+
+
