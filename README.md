@@ -7,8 +7,6 @@ Currently, if you try and use dart.io.Platform class on Web, your build will thr
 Unsupported operation: Platform._operatingSystem
 ```
 
-## 🕹️ Usage
-
 This acts as a drop-in replacement for dart.io.Platform, with a different name for improved clarity. 
 
 ```dart
@@ -28,6 +26,7 @@ dependencies:
 
 ### ⚙ Import
 
+Remove any usages of _dart.io.Platform_, and replace with this:
 ```dart
 import 'package:universal_platform/universal_platform.dart';
 ```
