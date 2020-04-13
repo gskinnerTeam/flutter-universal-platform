@@ -1,6 +1,6 @@
 # Universal Platform - A Web-safe Platform class
 
-Currently, if you include the _dart.io.Platform_ anywhere in your code, your will throw the following error on Web:
+Currently, if you include the _dart.io.Platform_ anywhere in your code, your app will throw the following error on Web:
 ```
 Unsupported operation: Platform._operatingSystem
 ```
