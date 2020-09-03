@@ -1,4 +1,8 @@
 # Universal Platform - A Web-safe Platform class
+[![pub package](https://img.shields.io/pub/v/universal_platform.svg)](https://pub.dev/packages/universal_platform)
+[![likes](https://badges.bar/universal_platform/likes)](https://pub.dev/packages/universal_platform/score)
+[![popularity](https://badges.bar/universal_platform/popularity)](https://pub.dev/packages/universal_platform/score)
+[![pub points](https://badges.bar/universal_platform/pub%20points)](https://pub.dev/packages/universal_platform/score) 
 
 Currently, if you include the _dart.io.Platform_ anywhere in your code, your app will throw the following error on Web:
 ```
