@@ -3,6 +3,8 @@ import 'src/universal_platform_locator.dart' if(dart.library.io) 'src/platform_i
 
 abstract class UniversalPlatform {
 
+  static UniversalPlatformType get value => currentUniversalPlatform;
+
   static bool get isWeb => currentUniversalPlatform == UniversalPlatformType.Web;
   static bool get isMacOS => currentUniversalPlatform == UniversalPlatformType.MacOS;
   static bool get isWindows => currentUniversalPlatform == UniversalPlatformType.Windows;
