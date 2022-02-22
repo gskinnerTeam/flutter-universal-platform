@@ -1,6 +1,8 @@
 library universal_platform;
 import 'src/universal_platform_locator.dart' if(dart.library.io) 'src/platform_io.dart';
 
+export 'src/universal_platform_locator.dart' if(dart.library.io) 'src/platform_io.dart';
+
 abstract class UniversalPlatform {
 
   static UniversalPlatformType get value => currentUniversalPlatform;
