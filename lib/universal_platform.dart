@@ -1,28 +1,3 @@
-library universal_platform;
-import 'src/universal_platform_locator.dart' if(dart.library.io) 'src/platform_io.dart';
-
-export 'src/universal_platform_locator.dart' if(dart.library.io) 'src/platform_io.dart';
-
-abstract class UniversalPlatform {
-
-  static UniversalPlatformType get value => currentUniversalPlatform;
-
-  static bool get isWeb => currentUniversalPlatform == UniversalPlatformType.Web;
-  static bool get isMacOS => currentUniversalPlatform == UniversalPlatformType.MacOS;
-  static bool get isWindows => currentUniversalPlatform == UniversalPlatformType.Windows;
-  static bool get isLinux => currentUniversalPlatform == UniversalPlatformType.Linux;
-  static bool get isAndroid => currentUniversalPlatform == UniversalPlatformType.Android;
-  static bool get isIOS => currentUniversalPlatform == UniversalPlatformType.IOS;
-  static bool get isFuchsia => currentUniversalPlatform == UniversalPlatformType.Fuchsia;
-
-}
-
-enum UniversalPlatformType {
-  Web,
-  Windows,
-  Linux,
-  MacOS,
-  Android,
-  Fuchsia,
-  IOS
-}
+export 'src/universal_platform.dart'
+    show UniversalPlatform, currentUniversalPlatform;
+export 'src/universal_platform_type.dart' show UniversalPlatformType;
