@@ -14,6 +14,10 @@ abstract class UniversalPlatform {
   static bool get isAndroid => currentUniversalPlatform == UniversalPlatformType.Android;
   static bool get isIOS => currentUniversalPlatform == UniversalPlatformType.IOS;
   static bool get isFuchsia => currentUniversalPlatform == UniversalPlatformType.Fuchsia;
+  
+  static bool get isApple => UniversalPlatform.isIOS || UniversalPlatform.isMacOS;
+  static bool get isMobile => UniversalPlatform.isIOS || UniversalPlatform.isAndroid;
+  static bool get isDesktopOrWeb => UniversalPlatform.isDesktop || UniversalPlatform.isWeb;
 
   static String get operatingSystem {
     switch (value) {
@@ -33,7 +37,6 @@ abstract class UniversalPlatform {
         return "fuchsia";
     }
   }
-
 }
 
 enum UniversalPlatformType {
