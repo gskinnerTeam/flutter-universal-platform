@@ -11,7 +11,7 @@ With this plugin you can perform platform detection on all platforms, including 
 ## 🔨 Installation
 ```yaml
 dependencies:
-  universal_platform: ^0.1.3
+  universal_platform: ^1.0.0+1
 ```
 
 ### ⚙ Import

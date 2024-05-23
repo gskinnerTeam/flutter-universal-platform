@@ -1,4 +1,4 @@
-## 1.0.0-nullsafety
+## 1.0.0
 - Migrate to nnbd
 
 ## 0.1.3
